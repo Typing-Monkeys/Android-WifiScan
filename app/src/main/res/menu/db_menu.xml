@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/deleteDatabase"
+        android:icon="@drawable/ic_icon"
+        android:title="Elimina Database"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/exportCSV"
+        android:icon="@drawable/ic_icon"
+        android:title="Esporta Database"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/degrado"
+        android:icon="@drawable/ic_icon"
+        android:title=" "
+        app:showAsAction="never"
+        />
+</menu>
